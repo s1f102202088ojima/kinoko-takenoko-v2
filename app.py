@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 app = Flask(__name__)
+import re
 
 kinoko_count=3
 takenoko_count=5
